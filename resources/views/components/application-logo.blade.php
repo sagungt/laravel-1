@@ -1,1 +1,1 @@
-<img src="{{ asset('storage/img/binadarma.png') }}" alt="Bina Darma" width="300px">
+<img src="{{ asset('img/babel.png') }}" alt="Bina Darma" width="300px">

@@ -110,9 +110,9 @@ class DatabaseSeeder extends Seeder
             'for' => UserType::MEMBER,
             'amount' => 50000
         ]);
-        \App\Models\PaymentMethod::query()->create([
-            'name' => 'BRI (Bank Rakyat Indonesia)',
-        ]);
+        // \App\Models\PaymentMethod::query()->create([
+        //     'name' => 'BRI (Bank Rakyat Indonesia)',
+        // ]);
         \App\Models\PaymentMethod::query()->create([
             'name' => 'BSB (Bank SUMSEL)',
         ]);

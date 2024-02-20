@@ -1,7 +1,7 @@
-<nav class="w-full flex fixed top-0 z-40 px-10 py-5 shadow-lg justify-between items-center bg-blue-900">
+<nav class="w-full flex fixed top-0 z-40 px-10 py-5 shadow-lg justify-between items-center bg-blue-950">
     <a href="{{ route('dashboard') }}">
         <div class="flex space-x-5 items-center">
-            <img src="{{ asset('storage/img/binadarma.png')}}" alt="Logo Bina Darma" width="150px">
+            <img src="{{ asset('img/babel.png')}}" alt="Logo Bina Darma" width="150px">
         </div>
     </a>
     <div class="text-lg hover:bg-blue-800 px-4 py-1 rounded-full">
